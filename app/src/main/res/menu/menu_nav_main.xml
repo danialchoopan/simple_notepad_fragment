@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_nav_my_notes"
+        android:icon="@drawable/ic_baseline_folder_special_24"
+        android:title="@string/my_notes" />
+
+    <item
+        android:id="@+id/menu_nav_recycler_bin"
+        android:icon="@drawable/ic_baseline_restore_from_trash_24"
+        android:title="@string/recycler_bin" />
+    <group>
+        <item
+            android:id="@+id/menu_nav_theme"
+            android:icon="@drawable/ic_baseline_palette_24"
+            android:title="@string/theme" />
+
+        <item
+            android:id="@+id/menu_nav_setting"
+            android:icon="@drawable/ic_baseline_settings_24"
+            android:title="@string/setting" />
+    </group>
+</menu>
